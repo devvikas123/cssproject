@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Side Menu Bar</title>
+  <style>
+    /* Body styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: flex;
+    }
+
+    /* Sidebar container styling */
+    .sidebar {
+      width: 250px;
+      height: 100vh;
+      background-color: #333;
+      padding-top: 20px;
+      position: fixed;
+    }
+
+    /* Sidebar links styling */
+    .sidebar a {
+      padding: 15px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #f1f1f1;
+      display: block;
+      transition: background-color 0.3s;
+    }
+
+    /* Hover effect for links */
+    .sidebar a:hover {
+      background-color: #575757;
+    }
+
+    /* Main content styling */
+    .main-content {
+      margin-left: 250px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Main content -->
+  <div class="main-content">
+    <h1>Welcome to the Main Content Area</h1>
+    <p>This is where the main content will be displayed.</p>
+  </div>
+
+</body>
+</html>
